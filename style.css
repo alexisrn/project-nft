@@ -1,0 +1,810 @@
+
+
+*{
+    
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-image: url(../NFT/assets/assets/background.png);
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header{
+display:flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 60px;
+margin-left: 0px;
+gap:200px;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-right: 60px;
+    }
+
+    li{
+        cursor: pointer;
+    }
+    li:hover{
+        color:#d8d8d8;
+    }
+
+.btnMetaMask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+    gap: 10px;
+    width: 200px;
+    height: 45px;
+}
+
+.metaMaskLogo{
+   width: 30px;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+
+   
+}
+
+.main1{
+
+    width: 1277px;
+    height: 246px;
+    
+    margin-top: 100px;
+    margin-left: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.txtMain1{
+    width:330px;
+    height:246px;
+    margin-left: 40px;
+
+}
+
+.groupAvatars{
+    margin-top:50px;
+    
+}
+
+.avatar{
+      display: flex;
+      align-items: center;
+        }
+ 
+.txtGroup{
+   margin-top:70px;
+   margin-left: 0px;
+   font-size: 14px;
+}
+
+.teenTxt{
+    margin-bottom: 5px;
+}
+
+
+
+.badge{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.txtMain1c{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:50px;
+    width: 690px;
+    height: 100%;
+    
+   }
+.txtNft{
+    color: #FF5B50;
+    margin-left: 260px;
+    margin-bottom: 120px;
+    margin-top:10px;
+}
+
+
+.gallery1{
+
+    
+    width: 1280px;
+    height: 166px;
+    
+    margin-top: 90px;
+    margin-left: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 05px;
+    
+
+}
+
+.nftsGallery{
+    width: 25%;
+    height: auto;
+
+    border: 1px solid;
+        border-color: white;
+    }
+  
+.main2{
+    width: 1277px;
+    height: 246px;
+
+    margin-top: 25px;
+
+    display:flex;
+
+    
+}
+
+.sideNum{
+    
+    border: 1px solid;
+    border-left: 0px;
+    border-top: 0px solid;
+    border-color: grey;
+    width: 600px;
+    height: 620px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+
+
+
+   
+    
+}
+
+.sideCont{
+    
+    width: 1000px;
+    height: 500px;
+}
+
+.txtBanner{
+    width: 100%;
+    height: 370px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-left: 30px;
+
+    
+    
+}
+
+.imgBanner{
+    width: 104%;
+    height: 300px;
+    
+}
+
+.banner{
+    width:103.5%;
+    height: 83.5%;
+}
+
+
+.artes{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+
+.artes1{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top:30px;
+    margin-bottom: 0px;
+
+}
+
+.txtArtes{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    color:#c9c4c479;
+}
+
+.txtArtes1{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color:#c9c4c479;
+}
+
+.txtBnr{
+    width: 350px;
+}
+
+.loremMore{
+    
+    margin-top: 70px;
+    color: #FF5B50;
+    
+}
+
+.link{
+    color:#FF5B50;
+    
+}
+
+.main3{
+   
+    width: 1277px;
+    height: 700px;
+
+    margin-top: 100px;
+    display: flex;
+
+    
+}
+
+.ftLeft{
+   
+    width: 690px; 
+
+    border-right: 1px solid;
+    border-color: grey;
+    
+    
+}
+
+.ftRight{
+
+    height:700px;
+    width: 640px;
+    margin-left: 65px;
+
+}
+
+.txtPopu{
+    margin-top: 500px;
+    font-size: 30px;
+    margin-left: 360px;
+    
+}
+
+.txtPop{
+    color:#FF5B50;
+    
+}
+
+.img1{
+    width: 376px;
+    height:337px;
+
+   margin-left: 60px;
+}
+
+.astronauta1{
+    margin-top: 0px;
+    
+}
+
+.arrowWhite{
+
+    height: 20px;
+    width:15px;
+
+    margin-left: 190px;
+    margin-top: 3px;
+   
+}
+
+.txtAstro1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.artist{
+    
+    margin-top: 25px;
+}
+.artistNFT{
+    color:grey;
+
+    margin-top: 20px;
+}
+
+.valueNFT{
+    color:#FF5B50;
+    margin-left: 180px;
+
+}
+
+.valueNFT2{
+    color:#FF5B50;
+    margin-left: 200px;
+
+}
+
+
+.img2{
+    width: 376px;
+    height:337px;
+
+    
+   margin-left: 60px;
+   margin-top: 60px;
+}
+
+
+
+
+.img3{
+    margin-left: 200px;
+    
+}
+.img4{
+    margin-left: 200px;
+    margin-top: 94px;
+}
+.valueNFT3{
+    color:#FF5B50;
+    margin-left: 200px;
+}
+
+
+.main4{
+    width: 1287px;
+    margin-top: 100px;
+    text-align: center;   
+    margin-left: 18px;    
+}
+
+.bestArtist{
+    
+    font-size: 50px;
+}
+
+.txtArtistas{
+    color:#FF5B50;
+}
+
+.allArtist{
+text-align: center;
+
+}
+
+.arrowOrange{
+    margin-left: 25px;
+}
+
+
+.ArtistasCtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.artistasBox{
+display: flex;
+
+    width: 350px;
+    height: 150px;
+    background-color: rgb(41, 40, 40);
+    
+}.artistasBox:hover{
+    background-color:#FF5B50;
+           
+}
+.artistasBox:hover .photosArtistas{
+    color:white;
+}
+.artista1{
+    margin-top: 25px;
+    margin-left: 30px;
+    height:100px;
+    width: 100px;
+
+}.artista1:hover{
+    background-color:#FF5B50;
+    color:white;
+}
+
+.nameArtistas{
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+
+.photosArtistas{
+    color:#FF5B50;
+    margin-left: 40px;
+    margin-top: 15px;
+}.photosArtistas:hover{
+    color:white;
+}
+
+footer{
+        width: 1347px;
+    
+    background-color: #31313191;
+}
+
+.ftrLogo{
+    width: 100%;
+    height: 170px;
+    border-bottom: 1px solid;
+    border-color: grey;
+    margin-top: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.return{
+    background-color:#FF5B50;
+    border: none;
+
+    width: 50px;
+    height: 50px;
+
+    margin-right: 110px;
+}
+
+.logoFtr{
+
+    margin-left: 50px;
+}
+
+
+.formEmail{
+
+    
+    width: 100%;
+    height: 280px;
+
+    display: flex;
+}
+
+.email{
+    height: 100%;
+    width: 600px;
+
+    border-right: 1px solid;
+    border-color: grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre{
+    height:100%;
+    width: 860px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 180px;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+
+.empresa{
+
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+    width: 220px;
+    height: 220px;
+    
+
+}
+
+
+
+.txtSobre{
+    cursor: pointer;
+    color:grey;
+}.txtSobre:hover{
+    color:rgb(255, 251, 251);
+}
+.ftrSite{
+
+    border-top: 1px solid;
+    border-color: grey;
+    width: 100%;
+    height: 170px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ctnEmail{
+    height: 80px;
+    width:  320px;
+
+    font-size: 30px;
+
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-top:30px;
+}
+
+.textEmail{
+
+}
+
+.txtNews{
+    color:#FF5B50
+}
+
+.ctnSendEmail{
+    width: 380px;
+    height: 100%;
+
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+.sendEmail{
+    width: 262px;
+    height: 50px;
+    color: white;
+
+    background-color: #000000;
+    border:none;
+    border-color: #5a5757;
+    font-size: 14px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.send{
+    height:51px;
+    width: 90px;
+    margin-right:0px;
+    border: none;
+}
+
+.textSend{
+    font-size: 16px;
+}
+
+.siteFtr{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#5a5757;
+    margin-left: 60px;
+    font-size: 20px;
+    
+}
+
+.midiasSociais{
+   margin-right: 80px;
+  gap:40px;
+
+  display:flex;
+
+}
+
+.mtMaskModal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}.mtMaskModal.mostrar{
+    display:flex;
+}
+
+.mtMaskLogin{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+
+@keyframes modalOne{
+    from{
+        opacity: 0;
+        transform: translate3d(0,-60px,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.mtMaskModal.mostrar .mtMaskLogin{
+    animation: modalOne 1s;
+
+}
+
+.logoMtMaskModal{
+
+    margin-top: 70px;
+
+}
+
+.btnMtMaskModal{
+
+    margin-top: 40px;
+}
+
+.mtMaskLoginModal{
+
+    width: 30%;
+    height:auto;
+}
+
+.txtMtMaskModal{
+
+    font-size: 26px;
+
+}
+
+.loginMtMask{
+    height: 35px;
+    width: 170px;
+    background-color: #f6851b;    
+    color: white;
+
+    border: none;  
+     
+}.loginMtMask:hover{
+    background-color:#794310;   
+}
+.loginMtMask1{
+    height: 35px;
+    width: 200px;
+    background-color: #f6851b;    
+    color: white;
+
+    border: none;
+}.loginMtMask1:hover{
+    background-color:#794310;   
+}
+
+.orMtMask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineMtMask{
+    margin-right: 10px;
+}
+
+.lineMtMask1{
+    margin-left: 10px;
+}
+
+.btnExit{
+    margin-left: 378px;
+    background-color: rgb(216, 215, 215);
+    border:none;
+}.btnExit:hover{
+    background-color:black;
+    color: white;
+}
+
+.fotoAstro1{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0,0,0,.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+}.fotoAstro1.mostrar1{
+    display:flex;
+}
+
+.bgAstro1{
+    width: 85%;
+    height: 85%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+@keyframes ModalTwo {
+    from{
+        opacity: 0;
+        transform: translate3d(0,-60px,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.fotoAstro1.mostrar1 .bgAstro1{
+    animation: ModalTwo .3s;
+
+}
+
+.fotoTxtAstro1{
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.astroTitle{
+font-size: 25px;
+text-align: center;
+color:#FF5B50;;
+}
+
+.buyNft{
+    margin-top: 80px;
+
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+
+    color:#FF5B50;
+       background-color:black;
+    border: 1px solid;
+    
+}.buyNft:hover{
+    color:black;
+    background-color: #FF5B50;
+}
+
+.btnExit2{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    margin-left: 83.5%;
+    margin-bottom: 38.5%;
+    background-color: rgb(216, 215, 215);
+    border:1px solid;
+    border-radius:10px;
+    color:#FF5B50;
+    background-color:black;
+
+    font-size: 15px;
+
+
+}.btnExit2:hover{
+    background-color:#FF5B50;
+    color:black;
+}
