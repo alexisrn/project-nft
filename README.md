@@ -1,2 +1,6 @@
 # Project-NFT
-Primeiro projeto feito com HTML e CSS.
+
+Primeiro projeto
+Desafio da RocketSeat, totalmente em HTML e CSS.
+
+
